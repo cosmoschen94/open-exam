@@ -1,12 +1,14 @@
-<div class="center jumbotron">
+<div class="center">
+  <%= link_to image_tag("open-exam-logo.jpg", alt: "OpenEXAM logo"),
+              'http://rubyonrails.org/' %>
+
   <h1>OpenEXAM</h1>
+  <br>
+  <div class="jumbotron">
+    <h2>
+      Discovering and enacting the path to future examination.
+    </h2>
 
-  <h2>
-    Discovering and enacting the path to future examination.
-  </h2>
-
-  <%= link_to "Sign up now!", signup_path, class: "btn btn-lg btn-primary" %>
+    <%= link_to "Sign up now!", signup_path, class: "btn btn-lg btn-primary" %>
+  </div>
 </div>
-
-<%= link_to image_tag("kitten.jpg", alt: "Rails logo"),
-            'http://rubyonrails.org/' %>

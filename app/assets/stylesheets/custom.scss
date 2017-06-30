@@ -84,6 +84,8 @@ footer {
   padding-top: 5px;
   border-top: 1px solid $gray-medium-light;
   color: $gray-light;
+  bottom: 0;
+  position: absolute;
   a {
     color: $gray;
     &:hover {
